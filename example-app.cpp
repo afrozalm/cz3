@@ -5,6 +5,18 @@
 #include <opencv2/opencv.hpp>
 #include <typeinfo>
 
+/**
+ * @file Example-app.cpp
+ *
+ * @brief Loading and running R2D2 keypoint descriptor in C++
+ *
+ * @author Afroz Alam
+ * Contact: afrozalm@berkeley.edu
+ * @author Seth Zhao
+ * Contact: sethzhao506@berkeley.edu
+ *
+ */
+
 int main(int argc, const char* argv[]) {
  	if (argc != 2) {
     	std::cerr << "usage: example-app <path-to-exported-script-module>\n";
